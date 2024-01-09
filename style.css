@@ -17,18 +17,18 @@
 body{
 	background-color: #F2F5F9 ;
 	font-size: var(--text-size-body);
-	font-family: var(--font-family-body);
+	font-family: var(--font-family-body), sans-serif;
 	color: #677489;
+	line-height: 1.5;
 }
+
 
 .card{
 	width: 420px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 125px;
 	background-color: #fff;
 	border-radius: 20px;
 	overflow: hidden;
+	margin: 125px auto auto auto
 }
 
 .card-header{
@@ -54,7 +54,7 @@ body{
 }
 
 .card-title{
-	font-family: var(--font-family-title);
+	font-family: var(--font-family-title), sans-serif;
 	font-size: var(--text-size-title);
 	color: #111729;
 	font-weight: 700;
