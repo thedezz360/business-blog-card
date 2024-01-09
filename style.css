@@ -1,0 +1,99 @@
+:root{
+	--text-size-body: 1rem;
+	--text-size-small: 0.75rem;
+	--text-size-title: 1.5rem;
+
+	--font-family-body: "lato";
+	--font-family-title: "poppins";
+
+	--mask-svg: url("images/white-overlay.svg")
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F2F5F9 ;
+	font-size: var(--text-size-body);
+	font-family: var(--font-family-body);
+	color: #677489;
+	
+}
+
+.card{
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.card-header{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	background-image: url("images/white-overlay.svg");
+	
+}
+
+.card-img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.mask{
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.card-body{
+	padding: 0 32px 32px 32px;
+}
+
+.card-title{
+	font-family: var(--font-family-title);
+	font-size: var(--text-size-title);
+	color: #111729;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.line-separator{
+	border: none;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card-footer{
+	display: flex;
+	padding: 30px 33px ;
+	
+
+}
+
+.card-avatar{
+	border-radius: 50%;
+	height: 35px;
+	width: auto;
+	margin-right: 15px;
+}
+
+.name{
+	font-weight: 700;
+	color: #111729;
+}
+
+.job{
+	font-size: var(--text-size-small);
+	font-weight: 400 ;
+}
+
