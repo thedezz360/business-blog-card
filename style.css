@@ -6,7 +6,6 @@
 	--font-family-body: "lato";
 	--font-family-title: "poppins";
 
-	--mask-svg: url("images/white-overlay.svg")
 }
 
 *{
@@ -20,7 +19,6 @@ body{
 	font-size: var(--text-size-body);
 	font-family: var(--font-family-body);
 	color: #677489;
-	
 }
 
 .card{
@@ -37,14 +35,11 @@ body{
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	background-image: url("images/white-overlay.svg");
-	
 }
 
 .card-img{
 	width: 100%;
 	height: auto;
-	
 }
 
 .mask{
@@ -76,8 +71,6 @@ body{
 .card-footer{
 	display: flex;
 	padding: 30px 33px ;
-	
-
 }
 
 .card-avatar{
